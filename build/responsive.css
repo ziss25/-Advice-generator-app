@@ -1,0 +1,9 @@
+@media (min-width: 992px) {
+  .card__quote {
+    font-size: 1.8rem;
+  }
+
+  .button {
+    transform: scale(1.2);
+  }
+}

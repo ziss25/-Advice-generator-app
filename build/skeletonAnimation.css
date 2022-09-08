@@ -1,0 +1,52 @@
+.parent-skeleton {
+  max-width: 600px;
+  margin: 5rem auto;
+  padding: 3rem;
+  text-align: center;
+  background-color: var(--DarkgrayishBlue);
+  color: white;
+  border-radius: 12px;
+}
+
+.skeleton {
+  margin: auto;
+  border-radius: 10px;
+  background-color: var(--LightCyan);
+  animation: pulse 2s infinite;
+}
+
+.skeleton_IDtext {
+  width: 50px;
+  height: 6px;
+}
+
+.skeleton_text {
+  margin-bottom: 0.5rem;
+  height: 10px;
+}
+
+.skeleton-first {
+  margin-top: 2rem;
+  width: 70%;
+}
+
+.skeleton-nth {
+  width: 50%;
+}
+
+.skeleton-last {
+  width: 40%;
+  margin-bottom: 2rem;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,5 +1,4 @@
 const newCard = document.querySelector('.card');
-
 function requestApi() {
   let xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
